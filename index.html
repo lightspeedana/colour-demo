@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="hero is-danger" style="height: 20vh;" onclick="enlarge(0)">
+            <div class="hero-body">
+                <h1 class="title is-1">Red</h1>
+            </div>
+        </div>
+        <div class="hero is-warning" style="height:20vh;" onclick="enlarge(1)">
+            <div class="hero-body">
+                <h1 class="title is-1">Yellow</h1>
+            </div>
+        </div>
+        <div class="hero is-success" style="height:20vh;" onclick="enlarge(2)">
+            <div class="hero-body">
+                <h1 class="title is-1">Green</h1>
+            </div>
+        </div>
+        <div class="hero is-info" style="height:20vh;" onclick="enlarge(3)">
+            <div class="hero-body">
+                <h1 class="title is-1">Blue</h1>
+            </div>
+        </div>
+        <div class="hero is-link" style="height:20vh; background-color: hsl(260, 71%, 63%); color: hsl(260, 71%, 63%);" onclick="enlarge(4)">
+            <div class="hero-body">
+                <h1 class="title is-1">Purple</h1>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    div{
+        cursor: pointer;
+    }
+</style>
